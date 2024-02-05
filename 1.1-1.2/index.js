@@ -2,16 +2,27 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 const App = () => {
-  // const-definitions
+  const course = 'Разработка приложения с помощью части стека'
+  const part1 = {
+    name: 'Основы React',
+    exercises: 10
+  }
+  const part2 = {
+    name: 'Использование props для передачи данных',
+    exercises: 7
+  }
+  const part3 = {
+    name: 'Состояние компонента',
+    exercises: 14
+  }
 
   return (
     <div>
-      <Header course={course} />
-      <Content ... />
-      <Total ... />
+      ...
     </div>
   )
 }
+
 const Content = ... {
   return (
     <div>
